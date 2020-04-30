@@ -6,16 +6,17 @@
 		<link rel="stylesheet" type="text/css" href="Style.css">
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h1>We value your feedback</h1>
-					<h4>Please complete the form below to help us serve you better</h4>
+		<div class="container custom-container">
+			<div class="d-flex flex-column align-items-center">
+				<div class="p-2">
+					<h1 id="title">We value your feedback</h1>
+					<h4 id="title">Please complete the form below to help us serve you better</h4>
 				</div>
-				 <div class="w-100"></div>
-				<div class="col">
+			</div>
+			<div class="d-flex flex-column align-items-center">
+				<div class="p-2">
 					<form action ="processfeedback.php">
-						<table border = "2px solid red">
+						<table class = "table">
 							<tr>
 								<th></th>
 								<th>Very satisfied</th>
@@ -49,6 +50,10 @@
 								<td><input type="radio"name="overall"></td>
 							</tr>
 						</table>
+					</div>
+				</div>
+				<div class="d-flex flex-column align-items-center">
+					<div class="p-2">
 						<p>Did we meet your expectations?</p>
 						<input type="radio" id="Yes" name="expectation" value="Yes">
 						<label for="yes">YES</label><br>
@@ -87,8 +92,8 @@
 						<input type="radio" id="bad" name="money" value="bad">
 						<label for="moeny">Good</label>
 						<p>What else would you like us to know?</p>
-						<textarea>Tell us something.....</textarea><br>
-						<input type ="submit" name="submit" value="Submit">
+						<textarea name="textarea" class="textarea">Let us know how we can improve.......</textarea><br>
+						<input type ="submit" class="btn btn-primary"name="submit" value="Submit">
 					</form>
 				</div>
 			</div>
