@@ -7,6 +7,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Style.css">
 	<title>IT Support</title>
 </head>
 <body>
@@ -56,9 +58,10 @@
                         <input type="text" class="form-control" id="subject" placeholder="Subject">
                     </div>
                     <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea name="" cols="30" rows="10" id="message" placeholder="What you wanna know...">What is your message...</textarea>
+                        <label for="message">Your Message</label><br>
+                        <textarea name="" class="form-control" cols="30" rows="10" id="message" placeholder="What you wanna know...">What is your message...</textarea>
                     </div>
+                    <button type="button" class="btn btn-primary+ btn-block">Send Message</button>
                 </form>
             </div>
             <div class="col-4">
