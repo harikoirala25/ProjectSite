@@ -15,7 +15,7 @@
 			</div>
 			<div class="d-flex flex-column align-items-center">
 				<div class="p-2">
-					<form action ="processfeedback.php">
+					<form action ="feedbackpge.php"method="get">
 						<table class = "table">
 							<tr>
 								<th></th>
@@ -50,10 +50,12 @@
 								<td><input type="radio"name="overall"></td>
 							</tr>
 						</table>
+					</form>
 					</div>
 				</div>
 				<div class="d-flex flex-column align-items-center">
 					<div class="p-2">
+						<form action ="feedbackpge.php"method="get">
 						<p>Did we meet your expectations?</p>
 						<input type="radio" id="Yes" name="expectation" value="Yes">
 						<label for="yes">YES</label><br>
