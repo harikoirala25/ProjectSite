@@ -50,12 +50,12 @@
 								<td><input type="radio"name="overall"></td>
 							</tr>
 						</table>
-					</form>
+					
 					</div>
 				</div>
 				<div class="d-flex flex-column align-items-center">
 					<div class="p-2">
-						<form action ="feedbackpge.php"method="get">
+						
 						<p>Did we meet your expectations?</p>
 						<input type="radio" id="Yes" name="expectation" value="Yes">
 						<label for="yes">YES</label><br>
@@ -95,6 +95,7 @@
 						<label for="moeny">Good</label>
 						<p>What else would you like us to know?</p>
 						<textarea name="textarea" class="textarea" placeholder="Let us know how we can improve"></textarea><br>
+						<input type="reset" name="reset" class="btn btn-danger">
 						<input type ="submit" class="btn btn-primary"name="submit" value="Submit">
 					</form>
 				</div>
