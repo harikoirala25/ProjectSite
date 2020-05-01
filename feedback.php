@@ -6,16 +6,16 @@
 		<link rel="stylesheet" type="text/css" href="Style.css">
 	</head>
 	<body>
-		<div class="container custom-container">
-			<div class="d-flex flex-column align-items-center">
-				<div class="p-2">
-					<h1 id="title">We value your feedback</h1>
-					<h4 id="title">Please complete the form below to help us serve you better</h4>
+		<div class="container-fluid custom-container">
+			<form action ="feedbackpge.php"method="post">
+				<div class="d-flex flex-column align-items-center">
+					<div class="p-2">
+						<h1 id="title">We value your feedback</h1>
+						<h4 id="title">Please complete the form below to help us serve you better</h4>
+					</div>
 				</div>
-			</div>
-			<div class="d-flex flex-column align-items-center">
-				<div class="p-2">
-					<form action ="feedbackpge.php"method="get">
+				<div class="d-flex flex-column align-items-left">
+					<div class="p-2">
 						<table class = "table">
 							<tr>
 								<th></th>
@@ -27,35 +27,33 @@
 							</tr>
 							<tr>
 								<td>How satisfied are you with our services</td>
-								<td><input type="radio"name="services"></td>
-								<td><input type="radio"name="services"></td>
-								<td><input type="radio"name="services"></td>
-								<td><input type="radio"name="services"></td>
-								<td><input type="radio"name="services"></td>
+								<td><input type="radio"name="services" value="very satisfied"></td>
+								<td><input type="radio"name="services" value="satisfied"></td>
+								<td><input type="radio"name="services" value="Neutral"></td>
+								<td><input type="radio"name="services"value="Unsatisfied"></td>
+								<td><input type="radio"name="services"value="Very unsatisfied"></td>
 							</tr>
 							<tr>
 								<td>How satisfied are you navigating our site</td>
-								<td><input type="radio"name="site"></td>
-								<td><input type="radio"name="site"></td>
-								<td><input type="radio"name="site"></td>
-								<td><input type="radio"name="site"></td>
-								<td><input type="radio"name="site"></td>
+								<td><input type="radio"name="site"value="Very satisfied"></td>
+								<td><input type="radio"name="site"value="satisfied"></td>
+								<td><input type="radio"name="site"value="Neutral"></td>
+								<td><input type="radio"name="site"value="Unsatisfied"></td>
+								<td><input type="radio"name="site"value="Very unsatisfied"></td>
 							</tr>
 							<tr>
 								<td>How satisfied are you overall</td>
-								<td><input type="radio"name="overall"></td>
-								<td><input type="radio"name="overall"></td>
-								<td><input type="radio"name="overall"></td>
-								<td><input type="radio"name="overall"></td>
-								<td><input type="radio"name="overall"></td>
+								<td><input type="radio"name="overall"value="very satisfied"></td>
+								<td><input type="radio"name="overall"value="satisfied"></td>
+								<td><input type="radio"name="overall"value="Neutral"></td>
+								<td><input type="radio"name="overall"value="unsatisfied"></td>
+								<td><input type="radio"name="overall"value="very unsatisfied"></td>
 							</tr>
 						</table>
-					
 					</div>
 				</div>
-				<div class="d-flex flex-column align-items-center">
-					<div class="p-2">
-						
+				<div class="d-flex flex-row bd-highlight mb-3 justify-content-around">
+					<div class="p-2 bd-highlight">
 						<p>Did we meet your expectations?</p>
 						<input type="radio" id="Yes" name="expectation" value="Yes">
 						<label for="yes">YES</label><br>
@@ -78,28 +76,48 @@
 						<p>Which of the following words would you use to describe our product/services?</p>
 						<input type="radio" id="buggy" name="describe" value="buggy">
 						<label for="describe">Buggy</label><br>
-						<input type="radio" id="issue" name="describe" value="issue">
+						<input type="radio" id="issue" name="describe" value="Fine,but there are some issues">
 						<label for="describe">Fine, but there are some issues</label><br>
 						<input type="radio" id="fine" name="describe" value="fine">
 						<label for="describe">Fine</label><br>
 						<input type="radio" id="fine" name="describe" value="fine">
 						<label for="describe">Great</label><br>
-						<input type="radio" id="saving" name="describe" value="saving">
+						<input type="radio" id="saving" name="describe" value="Lifesaving">
 						<label for="describe">Life saving</label>
 						<p>How would you rate the value for the money of the product/services?</p>
 						<input type="radio" id="bad" name="money" value="bad">
-						<label for="moeny">Bad</label><br>
-						<input type="radio" id="b" name="money" value="bad">
-						<label for="moeny">Regular</label><br>
-						<input type="radio" id="bad" name="money" value="bad">
-						<label for="moeny">Good</label>
+						<label for="money">Bad</label><br>
+						<input type="radio" id="bad" name="money" value="Regular">
+						<label for="money">Regular</label><br>
+						<input type="radio" id="bad" name="money" value="Good">
+						<label for="money">Good</label>
 						<p>What else would you like us to know?</p>
 						<textarea name="textarea" class="textarea" placeholder="Let us know how we can improve"></textarea><br>
 						<input type="reset" name="reset" class="btn btn-danger">
 						<input type ="submit" class="btn btn-primary"name="submit" value="Submit">
-					</form>
+					</div>
+					<div class="p-2 bd-highlight">
+						<h4 id="title">Recent customers feedback</h4>
+						<p class="customer-feedback">"This is the great 
+							compnay to do business<br>
+							with.The two guys are fabulous to work with"<br>
+							<span id="customer-name">Mike Jones</span></p>
+							<hr>
+							<p class="customer-feedback">"This is the worse compnay to deal<br>
+							with.Customer service is a garbage"<br>
+							<span id="customer-name">Jimmy Peterson</span></p>
+							<hr>
+							<p class="customer-feedback">"I called in to do an estimate for my web development<br>
+							and this two guy offer a reasonnable prices<br>.I would reccomend this company"<br>
+							<span id="customer-name">Tyler murphy</span></p>
+							<hr>
+							<p class="customer-feedback">"This is the great 
+							IT company in my area.Best customer support.<br>
+							Im looking forward to doing business with them"<br>
+							<span id="customer-name">Janson Kelly</span></p>
+					</div>
 				</div>
-			</div>
+			</form>
 		</div>
 	</body>
 </html>

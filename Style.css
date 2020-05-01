@@ -5,7 +5,7 @@ background-color:#f0ebeb;
 text-align: center;
 }
 table,th,td{
-text-align: center;
+text-align:center;
 }
 .textarea{
 font-family: Arial, Helvetica, sans-serif;
@@ -14,4 +14,12 @@ height:120px;
 width:55%;
 border:hidden;
 padding:5px;
+}
+
+.customer-feedback{
+	text-align:center;
+	font-style: italic;
+}
+#customer-name{
+	font-family: arial;
 }
