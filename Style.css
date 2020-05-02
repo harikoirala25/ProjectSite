@@ -1,6 +1,12 @@
 .custom-container{
 background-color:#f0ebeb;
 }
+.custom-fluid{
+	margin-top:5%;
+}
+body{
+	background-color: #f0ebeb;
+}
 #title{
 text-align: center;
 }

@@ -23,23 +23,25 @@ if(isset($_POST['submit'])){
 
 	if (empty($services) ||empty($site) ||empty($overall) ||empty($expectation) ||empty($easy) ||empty($needs) ||empty($describe) ||empty($money) ||empty($textarea)) 
 	{
-		echo"Please answere all the question"; 	  
+		echo "<script>
+		alert('Please ansuwer all the question')
+		</script>";
 
 	}
 	else {
 		$sql = "INSERT INTO feedback (satisfied,sitenav,overall,expectations,information,needs,description,moneyvalue,comments)
 		VALUES ('$services', '$site', '$overall', '$expectation', '$easy', '$needs', '$describe', '$money', '$textarea')";
+		header("Location:thankyou.html");
 	}
-
-	
 
 	if ($conn->query($sql) === TRUE) 
 	{
-    echo "Thank you for taking the time to complete the survey";
+        header("Location:thankyou.html");
 	} 	
 	else 
 	{
-	echo "We are trying to resolve the problem we will be back soon";
+		header("Location:feedback.php?connection error");
+	  
  	}
 
 }

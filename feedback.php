@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div class="container-fluid custom-container">
-			<form action ="feedbackpge.php"method="post">
+			<form action ="feedbackpge.php"method="post" autocomplete="on">
 				<div class="d-flex flex-column align-items-center">
 					<div class="p-2">
 						<h1 id="title">We value your feedback</h1>
