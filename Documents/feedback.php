@@ -182,6 +182,6 @@
 				</div>
 			</form>
 		</div>
-		<script src="js/design.js"></script>
+		<script src="../js/design.js"></script>
 	</body>
 </html>
