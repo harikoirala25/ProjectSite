@@ -1,3 +1,57 @@
+/* Navigation */
+.navbar-design {
+  color: #fff;
+  background-color: #212121;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-item {
+    margin: 10px;
+  }
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item:after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid white;
+  bottom: 0;
+  left: 100%;
+  right: 100%;
+  transition: all 500ms;
+}
+
+.nav-item:hover:after {
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu {
+  background-color: #4b7fbb;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+/* FeedBack */
+
 .custom-container{
 background-color:#f0ebeb;
 }
