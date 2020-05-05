@@ -31,7 +31,6 @@
 	<title>IT Support</title>
 </head>
 <body>
-	<div class="container-fluid">
 		    <nav class="navbar navbar-expand-sm nav-size navbar-design">
       <!-- Logo -->
       <a class="navbar-brand" href="#">IT Support</a>
