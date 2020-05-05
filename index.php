@@ -33,7 +33,7 @@
 <body>
 		    <nav class="navbar navbar-expand-sm nav-size navbar-design">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">IT Support</a>
+      <a class="navbar-brand" href="index.php">IT Support</a>
 
       <!-- Navigation -->
       <ul class="navbar-nav ml-auto">
@@ -46,7 +46,7 @@
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="#"
+            href="#services"
             id="navbardrop"
             data-toggle="dropdown"
           >
@@ -156,7 +156,7 @@
 
 		<!-- Services -->
 
-		<div class="row">
+		<div class="row" id="services">
 			<div class="col-4">
 				<!-- Networking -->
 				<h3>Networking</h3>
