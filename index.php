@@ -221,6 +221,8 @@
 
         <p>Copyright &amp; <a href="#">IT Support 2020</a></p>
     </footer>
+		
+		    <script src="js/design.js"></script>
 	
 </body>
 </html>
