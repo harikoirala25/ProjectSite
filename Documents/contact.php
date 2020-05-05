@@ -34,7 +34,7 @@
 <body>
 		    <nav class="navbar navbar-expand-sm nav-size navbar-design">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">IT Support</a>
+      <a class="navbar-brand" href="../index.php">IT Support</a>
       <!-- Navigation -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
