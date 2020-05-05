@@ -38,10 +38,10 @@
       <!-- Navigation -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="Documents/about.php">About Us</a>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -62,10 +62,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="Documents/contact.php">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Feedback</a>
+          <a class="nav-link" href="Documents/feedback.php">Feedback</a>
         </li>
       </ul>
     </nav>
