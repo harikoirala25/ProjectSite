@@ -10,7 +10,9 @@ if(isset($_POST['submit'])){
 	$conn = new mysqli($host, $username, $password, $db);
 	if($conn -> connect_error)
 	{
-	die("connection failed " .mysqli_connect_error());
+	 die("connection failed " .mysqli_connect_error());
+	 header("Location:index.php?connectionFailed");
+
 	}
 	//define variables
 	$services = $_POST['services'];
@@ -22,24 +24,23 @@ if(isset($_POST['submit'])){
 	$describe = $_POST['describe'];
 	$money = $_POST['money'];
 	$textarea = $_POST['textarea'];
-
-	//inserting data in to the databse 
+	//inserting data in to the databse
 	if (isset($services) ||isset($site) ||isset($overall) ||isset($expectation) ||isset($easy) ||isset($needs) ||isset($describe) ||isset($money) ||isset($textarea))
 	{
 		$sql = "INSERT INTO feedback (satisfied,sitenav,overall,expectations,information,needs,description,moneyvalue,comments)
 		VALUES ('$services', '$site', '$overall', '$expectation', '$easy', '$needs', '$describe', '$money', '$textarea')";
 	}
-     
-     //if connection is success redirect to thankyou pge
+//if connection is success redirect to thankyou pge
 	if ($conn->query($sql) === TRUE)
 	{
-         header("Location:thankyou.php");
+		
+		header("Location:thankyou.php");
 	}
-	//if there is a problem redirect them to the index pge 
+	//if there is a problem redirect them to the index pge
 	else
 	{
 		header("Location:index.php?ConnectionError");
+		
 	}
 }
-
 ?>
