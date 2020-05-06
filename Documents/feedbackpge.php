@@ -29,7 +29,7 @@ if(isset($_POST['submit'])){
 		$sql = "INSERT INTO feedback (satisfied,sitenav,overall,expectations,information,needs,description,moneyvalue,comments)
 		VALUES ('$services', '$site', '$overall', '$expectation', '$easy', '$needs', '$describe', '$money', '$textarea')";
 	}
-//if connection is success redirect to thankyou pge
+	//if connection is successful redirect to thankyou pge
 	if ($conn->query($sql) === TRUE)
 	{
 		header("Location:thankyou.php");
