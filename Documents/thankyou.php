@@ -75,6 +75,83 @@
 				<!--We can add serives we offer here as well -->
 			</div>
 		</div>
+<!-- 	Footer Section -->
+	    <footer class="footer">
+      <!-- Footer Links -->
+      <div class="row">
+        <div class="col-4 footer-content">
+          <h3 class="footer-link-title text-center">Development Services</h3>
+          <hr class="line" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Website Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Software Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Android Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Database Development</a
+          >
+        </div>
+        <div class="col-4 footer-content">
+          <h3 class="footer-link-title text-center">Other Services</h3>
+          <hr class="line1" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Networking</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Hardware</a
+          >
+        </div>
+
+        <div class="col-4 footer-content">
+          <p><a class="footer-services" href="">Privacy Policy</a></p>
+          <p><a class="footer-services" href="">Terms and Conditions</a></p>
+        </div>
+      </div>
+
+      <!-- Footer Icons -->
+      <div class="row">
+        <div class="col-12 text-center mb-4 pb-2 icon">
+          <a
+            class="p-1 hover-style"
+            target="_blank"
+            href="https://www.facebook.com/lethbridgeitsupport/"
+            ><i class="fa fa-facebook-square"></i
+          ></a>
+          <a
+            class="p-1 hover-style"
+            target="_blank"
+            href="https://twitter.com/ITSuppo75875687"
+            ><i class="fa fa-twitter-square"></i
+          ></a>
+          <a
+            class="p-1 hover-style"
+            target="_blank"
+            href="https://www.instagram.com/lethbridgeitsupport/"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            class="p-1 hover-style"
+            target="_blank"
+            href="https://www.linkedin.com/in/it-support-a002841a9/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="footer-copyright text-center">
+            Copyright &copy; 2020
+            <a href="#"><span class="style-link">IT Support</span></a> - All
+            Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
 		<script src="../js/design.js"></script>
 	</body>
 </html>
