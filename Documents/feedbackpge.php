@@ -10,9 +10,8 @@ if(isset($_POST['submit'])){
 	$conn = new mysqli($host, $username, $password, $db);
 	if($conn -> connect_error)
 	{
-	 die("connection failed " .mysqli_connect_error());
-	 header("Location:index.php?connectionFailed");
-
+		die("connection failed " .mysqli_connect_error());
+		header("Location:index.php?connectionFailed");
 	}
 	//define variables
 	$services = $_POST['services'];
@@ -33,14 +32,12 @@ if(isset($_POST['submit'])){
 //if connection is success redirect to thankyou pge
 	if ($conn->query($sql) === TRUE)
 	{
-		
 		header("Location:thankyou.php");
 	}
 	//if there is a problem redirect them to the index pge
 	else
 	{
 		header("Location:index.php?ConnectionError");
-		
 	}
 }
 ?>
