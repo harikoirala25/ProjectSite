@@ -1,19 +1,18 @@
 <!-----------------------------------------------------------------------------------------
-                                    Storing Feedback
+Storing Feedback
 ------------------------------------------------------------------------------------------->
 <?php
 if(isset($_POST['submit'])){
-
-	  $host = "localhost";
-	  $username = "root";
-	  $password = "Password1";
-	  $db = "website";
-	  $conn = new mysqli($host, $username, $password, $db);
-	  if($conn -> connect_error)
-	  {
-	      die("connection failed " .mysqli_connect_error());
-	  }
-
+	$host = "localhost";
+	$username = "root";
+	$password = "Password1";
+	$db = "website";
+	$conn = new mysqli($host, $username, $password, $db);
+	if($conn -> connect_error)
+	{
+	die("connection failed " .mysqli_connect_error());
+	}
+	//define variables
 	$services = $_POST['services'];
 	$site = $_POST['site'];
 	$overall = $_POST['overall'];
@@ -24,29 +23,20 @@ if(isset($_POST['submit'])){
 	$money = $_POST['money'];
 	$textarea = $_POST['textarea'];
 
-	if (empty($services) ||empty($site) ||empty($overall) ||empty($expectation) ||empty($easy) ||empty($needs) ||empty($describe) ||empty($money) ||empty($textarea)) 
+	if (isset($services) ||isset($site) ||isset($overall) ||isset($expectation) ||isset($easy) ||isset($needs) ||isset($describe) ||isset($money) ||isset($textarea))
 	{
-		echo "<script>
-		alert('Please ansuwer all the question')
-		</script>";
-
-	}
-	else {
 		$sql = "INSERT INTO feedback (satisfied,sitenav,overall,expectations,information,needs,description,moneyvalue,comments)
 		VALUES ('$services', '$site', '$overall', '$expectation', '$easy', '$needs', '$describe', '$money', '$textarea')";
-		header("Location:thankyou.html");
 	}
 
-	if ($conn->query($sql) === TRUE) 
+	if ($conn->query($sql) === TRUE)
 	{
-        header("Location:thankyou.html");
-	} 	
-	else 
+         header("Location:thankyou.php");
+	}
+	else
 	{
-		header("Location:feedback.php?connection error");
-	  
- 	}
-
+		header("Location:index.php?ConnectionError");
+	}
 }
 
 ?>
