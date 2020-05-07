@@ -68,7 +68,7 @@
           <a class="nav-link" href="contact.php">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="feedback.php">Feedback</a>
+          <a class="nav-link current" href="feedback.php">Feedback</a>
         </li>
       </ul>
     </nav>
@@ -93,24 +93,24 @@
 								<th>Very unsatisfied</th>
 							</tr>
 							<tr>
-								<td>How satisfied are you with our services</td>
-								<td><input type="radio"name="services" value="very satisfied"></td>
-								<td><input type="radio"name="services" value="satisfied"></td>
+								<td><strong>1.</strong>&nbspHow satisfied are you with our services</td>
+								<td><input type="radio"name="services" required value="very satisfied"></td>
+								<td><input type="radio"name="services"value="satisfied"></td>
 								<td><input type="radio"name="services" value="Neutral"></td>
-								<td><input type="radio"name="services"value="Unsatisfied"></td>
-								<td><input type="radio"name="services"value="Very unsatisfied"></td>
+								<td><input type="radio"name="services" value="Unsatisfied"></td>
+								<td><input type="radio"name="services" value="Very unsatisfied"></td>
 							</tr>
 							<tr>
-								<td>How satisfied are you navigating our site</td>
-								<td><input type="radio"name="site"value="Very satisfied"></td>
+								<td><strong>2.</strong>&nbspHow satisfied are you navigating our site</td>
+								<td><input type="radio"name="site" required value="Very satisfied"></td>
 								<td><input type="radio"name="site"value="satisfied"></td>
 								<td><input type="radio"name="site"value="Neutral"></td>
 								<td><input type="radio"name="site"value="Unsatisfied"></td>
 								<td><input type="radio"name="site"value="Very unsatisfied"></td>
 							</tr>
 							<tr>
-								<td>How satisfied are you overall</td>
-								<td><input type="radio"name="overall"value="very satisfied"></td>
+								<td><strong>3.</strong>&nbspHow satisfied are you overall</td>
+								<td><input type="radio"name="overall" required value="very satisfied"></td>
 								<td><input type="radio"name="overall"value="satisfied"></td>
 								<td><input type="radio"name="overall"value="Neutral"></td>
 								<td><input type="radio"name="overall"value="unsatisfied"></td>
@@ -121,18 +121,18 @@
 				</div>
 				<div class="d-flex flex-row bd-highlight mb-3 justify-content-around">
 					<div class="p-2 bd-highlight">
-						<p>Did we meet your expectations?</p>
-						<input type="radio" id="Yes" name="expectation" value="Yes">
+						<p><strong>4.</strong>&nbspDid we meet your expectations?</p>
+						<input type="radio" id="Yes" required name="expectation" value="Yes">
 						<label for="yes">YES</label><br>
 						<input type="radio" id="No" name="expectation" value="NO">
 						<label for="no">NO</label>
-						<p>Was it easy to find information you were looking for on our site?</p>
-						<input type="radio" id="Yes" name="easy" value="Yes">
+						<p><strong>5.</strong>&nbspWas it easy to find information you were looking for on our site?</p>
+						<input type="radio" id="Yes" name="easy" required value="Yes">
 						<label for="yes">YES</label><br>
 						<input type="radio" id="No" name="easy" value="NO">
 						<label for="no">NO</label>
-						<p>How well our product/services meet your needs?</p>
-						<input type="radio" id="Bad" name="needs" value="Bad">
+						<p><strong>6.</strong>&nbspHow well our product/services meet your needs?</p>
+						<input type="radio" id="Bad" name="needs" required value="Bad">
 						<label for="bad">Badly</label><br>
 						<input type="radio" id="ok" name="needs" value="fine">
 						<label for="fine">Fine</label><br>
@@ -140,8 +140,8 @@
 						<label for="well">Well</label><br>
 						<input type="radio" id="verywell" name="needs" value="verywell">
 						<label for="verywell">Very well</label>
-						<p>Which of the following words would you use to describe our product/services?</p>
-						<input type="radio" id="buggy" name="describe" value="buggy">
+						<p><strong>7.</strong>&nbspWhich of the following words would you use to describe our product/services?</p>
+						<input type="radio" id="buggy" required name="describe" value="buggy">
 						<label for="describe">Buggy</label><br>
 						<input type="radio" id="issue" name="describe" value="Fine,but there are some issues">
 						<label for="describe">Fine, but there are some issues</label><br>
@@ -151,15 +151,15 @@
 						<label for="describe">Great</label><br>
 						<input type="radio" id="saving" name="describe" value="Lifesaving">
 						<label for="describe">Life saving</label>
-						<p>How would you rate the value for the money of the product/services?</p>
-						<input type="radio" id="bad" name="money" value="bad">
+						<p><strong>8.</strong>&nbspHow would you rate the value for the money of the product/services?</p>
+						<input type="radio" id="bad" name="money" required value="bad">
 						<label for="money">Bad</label><br>
 						<input type="radio" id="bad" name="money" value="Regular">
 						<label for="money">Regular</label><br>
 						<input type="radio" id="bad" name="money" value="Good">
 						<label for="money">Good</label>
-						<p>What else would you like us to know?</p>
-						<textarea name="textarea" class="textarea" placeholder="Let us know how we can improve"></textarea><br>
+						<p><strong>9.</strong>&nbspWhat else would you like us to know?</p>
+						<textarea name="textarea" required class="textarea" placeholder="Let us know how we can improve"></textarea><br>
 						<input type="reset" name="reset" class="btn btn-danger">
 						<input type ="submit" class="btn btn-primary"name="submit" value="Submit">
 					</div>
