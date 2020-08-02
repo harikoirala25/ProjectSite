@@ -76,8 +76,11 @@
 			<div class="column">
 				<h1 id="title">Thank you for taking the time to complete the survey</h1>
 				<p id="title"><strong>We value your feedback and we are looking forward to do an business with you again</strong></p>
-				<!--We can add serives we offer here as well -->
+				<!--We can add serives we offer here as well just a little ad -->
 			</div>
+      <?php
+      header("refresh:10; url=../index.php"); 
+      ?>
 		</div>
 <!-- 	Footer Section -->
 	    <footer class="footer">

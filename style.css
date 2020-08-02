@@ -92,12 +92,14 @@ padding:5px;
 	color:red;
 }
 .customcol{
-	padding-top: 15%;
+
+	padding-top:15%;
 }
 
 /* Footer Section */
 .footer {
   background-color: #181818;
+  margin-top: 25px;
 }
 
 .footer-content {
@@ -159,5 +161,26 @@ padding:5px;
 .footer-services:hover {
   color: #fff;
   text-decoration: none;
+}
+
+#abth2{
+  text-align: center;
+}
+.customcard{
+  background-color:#e2e1f5;
+  box-shadow: 2px 2px 2px 2px white;
+  border-radius:10px;
+  transition: all 0.3s ease-in;
+  -webkit-transition:all 0.3s ease-in;
+  -moz-transition:all 0.3s ease-in;
+}
+.customcard:hover{
+  background-color:black;
+  transform: scale(1.1);
+  color:white;
+  border-radius:15px;
+  border:none;
+  box-shadow: 2px 2px 2px red;
+
 }
 
