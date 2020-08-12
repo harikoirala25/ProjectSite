@@ -108,7 +108,7 @@ Contact Page
               <address>
                 <p><strong>Name</strong>:Hari Koirala<br>
                   <strong>Email</strong>:<a href="mailto:harikoirala25@gmail.com">harikoirala25@gmail.com<br></a>
-                  <strong>Phone</strong>:<a href="tel:000-125-4563">000-125-4563</a>
+                  <strong>Phone</strong>:<a href="tel:000-125-4563">000-000-4563</a>
                 </p>
               </address>
             </div>
