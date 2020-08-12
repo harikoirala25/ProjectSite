@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+    background: #111d5e;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+}
+
 /* Navigation */
 .navbar-design {
   color: #fff;
@@ -191,3 +199,195 @@ padding:5px;
     display:block;
 }
 }
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.section-title-bottom {
+    width: 15%;
+    background: #fff;
+}
+
+/* Service */
+#service {
+    padding: 50px;
+}
+
+#service h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#service span {
+    /* font-size: 15px; */
+    color: #6a8caf;
+    /* vertical-align: top; */
+}
+
+#service hr {
+    width: 15%;
+    background: #fff;
+    margin-left: 38%;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-section {
+    box-sizing: border-box;
+    background-color: #394989;
+    border-radius: 5px;
+    box-shadow: 5px 1px 5px #394989;
+    margin: 10px;
+    padding: 20px;
+    flex-basis: 45%;
+}
+
+/* Modal */
+.modal-title,
+.modal-body {
+    color: #000;
+}
+
+.modal-title {
+    margin-left: 30%;
+}
+
+.custom-btn {
+    background: #111d5e;
+    color: #fff;
+}
+
+.custom-btn:hover {
+    color: #fff;
+    background: #394989;
+}
+
+/* Project */
+
+#project {
+    padding: 50px;
+}
+
+.nav {
+    border: none;
+    outline: none;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+}
+
+.project .nav-tabs .nav-item {
+    margin-left: 20px;
+}
+
+.project .nav-tabs .nav-item .nav-link.active {
+    color: #fff;
+    border-radius: 4px;
+    background: none;
+}
+
+.project .nav .nav-link.active {
+    position: relative;
+    width: 100%;
+    background-color: #394989;
+    /* transition: all 0.2s ease-in; */
+
+}
+
+.project .nav .nav-item .nav-link.active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #394989;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    left: -2px;
+    z-index: -1;
+    bottom: 0;
+    top: 15%;
+    transition: all 0.2s linear;
+}
+
+.project .nav-tabs .nav-item .nav-link.active,
+.project .nav-tabs .nav-item .nav-link.active:hover {
+    border: none;
+    outline: none;
+}
+
+.project .nav-tabs .nav-item .nav-link:hover {
+    border: 1px solid transparent;
+    color: deepskyblue;
+}
+
+.project .nav-tabs .nav-item .dropdown-menu .dropdown-item:hover,
+.project .nav-tabs .nav-item .dropdown-menu .dropdown-item.active {
+    background: #394989;
+    color: #fff;
+}
+
+.tab-content {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.tab-content h3 {
+    text-align: center;
+}
+
+.tab-content p {
+    margin-top: 20px;
+}
+
+.custom-thumbnail {
+    width: 100%;
+    height: 250px;
+}
+
+.caption {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    height: 250px;
+    width: 91.3%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+
+.caption p {
+    margin-top: 100px;
+    font-size: 1.5em;
+}
+
+.modal-content {
+    color: #000;
+}
+
+.modal-content button {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.caption:hover {
+    color: #fff;
+    opacity: 1;
+}
+
