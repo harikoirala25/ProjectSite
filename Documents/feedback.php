@@ -32,7 +32,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 	<link rel="stylesheet" type="text/css" href="../style.css" />
-	<title>IT Support</title>
+	<title>Feedback - IT Support</title>
 </head>
 	<body>
 		<nav class="navbar navbar-expand-sm nav-size navbar-design">

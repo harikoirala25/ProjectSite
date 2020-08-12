@@ -32,7 +32,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<title>IT Support</title>
+	<title>Home - IT support</title>
 </head>
 <body>
 		    <nav class="navbar navbar-expand-sm nav-size navbar-design">
@@ -206,6 +206,48 @@
 			</div>
 		</div>
 	</div>
+  <div class="container slideshow">
+    <div class="container">
+    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+        <div class="carousel-inner" role="listbox">
+           
+            <div class="carousel-item active text-center p-4">
+                 <p><font style="font-size:2em;font-family: arial;color:#2c0000;font-style: italic;">Recent customers feedback</font></p>
+                
+            </div>
+            <div class="carousel-item text-center p-4">
+                
+          <p><font style="font-style: italic;font-size: 22px;font-style: italic;font-family: arial;">"This is the great compnay to do business
+with.<br>The two guys are fabulous to work with"</font></p>
+                 <p><font style="color:#ffffff; font-size:16px; text-transform: uppercase; font-weight: bold; font-style:italic">Thomas lakoo</font></p>
+            </div>
+             <div class="carousel-item text-center p-4">
+                    <p><font style="font-style: italic;font-size: 22px;font-style: italic;font-family: arial;">"This is the worse compnay to deal with.<br>Customer service is a garbage"</font></p>
+                 <p><font style="color:#ffffff; font-size:16px; text-transform: uppercase; font-weight: bold; font-style:italic">Jimmy Paterson</font></p>
+            </div>
+              <div class="carousel-item text-center p-4">
+                    <p><font style="font-style: italic;font-size: 22px;font-style: italic;font-family: arial;">"This is the great IT company in my area.<br>Best customer support.<br>
+Im looking forward to doing business with them"</font></p>
+                 <p><font style="color:#ffffff; font-size:16px; text-transform: uppercase; font-weight: bold; font-style:italic">Mike jones</font></p>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+</div>
 
 	<!-- Footer Section -->
     <footer class="footer">

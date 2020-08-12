@@ -56,13 +56,14 @@
 /* FeedBack */
 
 .custom-container{
-background-color:#f0ebeb;
+background-color:#ff6969;
 }
 .custom-fluid{
 	margin-top:5%;
 }
+
 body{
-	background-color: #f0ebeb;
+	background-color:#ff6969;
 }
 #title{
 text-align: center;
@@ -184,3 +185,9 @@ padding:5px;
 
 }
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+}
