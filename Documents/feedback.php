@@ -159,7 +159,7 @@
 						<input type="radio" id="bad" name="money" value="Good">
 						<label for="money">Good</label>
 						<p><strong>9.</strong>&nbspWhat else would you like us to know?</p>
-						<textarea name="textarea" required class="textarea" placeholder="Let us know how we can improve"></textarea><br>
+						<textarea name="textarea"class="textarea" placeholder="Let us know how we can improve"></textarea><br>
 						<input type="reset" name="reset" class="btn btn-danger">
 						<input type ="submit" class="btn btn-primary"name="submit" value="Submit">
 					</div>

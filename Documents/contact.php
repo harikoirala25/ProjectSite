@@ -79,11 +79,11 @@ Contact Page
               <form action ="procontact.php" method="POST">
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="Name is required" >
+                  <input type="text" name="name" class="form-control" placeholder="Jason Kenny" required="Name is required" >
                 </div>
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="text" class="form-control" name="email" placeholder="Your Email" required="email is required" >
+                  <input type="text" class="form-control" name="email" placeholder="youremail25@gmail.com" required="email is required" >
                 </div>
                 <div class="form-group">
                   <label for="email">Subject</label>
@@ -95,6 +95,8 @@ Contact Page
                 </div>
                 <input type="submit" name="submit" value="SEND MESSAGE" class="btn btn-primary + btn-block">
               </form>
+              
+
             </div>
             <div class="col-4 text-right customcol">
               <h3>Contact our technician</h3>

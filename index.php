@@ -59,15 +59,17 @@
       </ul>
     </nav>
 
+
 		<!-- Slider -->
-	<div class="container-fluid">
-		<div class="slider">
-			Image slider goes here
-		</div>
-	</div>
 
-	<div class="container">
+        
+        <!--end of slide -->
+	
 
+
+   
+
+          <div class="container">
 		<!-- What we do -->
 		<h2>What we do...</h2>
 		<p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
@@ -131,7 +133,8 @@
                                             ad fugiat quas consectetur aliquid.
                                         </p>
                                         <p>If your interested working with us please contact us</p>
-                                        <button type="button" class="btn custom-btn">Contact Us</button>
+                                         <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -187,7 +190,7 @@
                                             ad fugiat quas consectetur aliquid.
                                         </p>
                                         <p>If your interested working with us please contact us</p>
-                                        <button type="button" class="btn custom-btn">Contact Us</button>
+                                         <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +246,7 @@
                                             ad fugiat quas consectetur aliquid.
                                         </p>
                                         <p>If your interested working with us please contact us</p>
-                                        <button type="button" class="btn custom-btn">Contact Us</button>
+                                        <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                     </div>
                                 </div>
                             </div>
@@ -300,7 +303,7 @@
                                             ad fugiat quas consectetur aliquid.
                                         </p>
                                         <p>If your interested working with us please contact us</p>
-                                        <button type="button" class="btn custom-btn">Contact Us</button>
+                                        <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                     </div>
                                 </div>
                             </div>
@@ -357,7 +360,7 @@
                                             ad fugiat quas consectetur aliquid.
                                         </p>
                                         <p>If your interested working with us please contact us</p>
-                                        <button type="button" class="btn custom-btn">Contact Us</button>
+                                         <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                     </div>
                                 </div>
                             </div>
@@ -414,7 +417,7 @@
                                             ad fugiat quas consectetur aliquid.
                                         </p>
                                         <p>If your interested working with us please contact us</p>
-                                        <button type="button" class="btn custom-btn">Contact Us</button>
+                                         <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                     </div>
                                 </div>
                             </div>

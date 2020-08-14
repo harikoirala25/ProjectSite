@@ -148,7 +148,6 @@ About Page
             </div>
           </div>
         </div>
-        
         <!-- Footer Section -->
         <footer class="footer">
           <!-- Footer Links -->

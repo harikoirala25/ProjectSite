@@ -7,7 +7,7 @@ if (isset($_POST['submit'])){
 
 	if (empty($name) || empty($email) || empty($subject) || empty($message)){
 		header("Location:contact.php?field=blank");
-		exit();
+		
 	}
 	else if (!filter_var($email,FILTER_VALIDATE_EMAIL)){
 		header ("Location:contact.php?field=invalidemail");
