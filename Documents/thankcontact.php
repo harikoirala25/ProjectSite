@@ -74,8 +74,10 @@
     </nav>
 		<div class="container-fluid custom-fluid">
 			<div class="column">
-				<h1 id="title">Thank you for taking the time to complete the survey</h1>
-				<p id="title"><strong>We value your feedback and we are looking forward to do an business with you again</strong></p>
+				<h1 id="title"><strong>Thank you for contacting us</strong></h1>
+				<h3 id="title"><strong>One of our technicain will get back to you as soon as possible</strong></h3>
+        <p id="title"><strong>For the mean time keep exploring our website</strong></p>
+
 				<!--We can add serives we offer here as well just a little ad -->
 			</div>
       <?php
@@ -85,7 +87,7 @@
 <!-- 	Footer Section -->
 	    <footer class="footer">
       <!-- Footer Links -->
-     <div class="row justify-content-center">
+      <div class="row justify-content-center">
         <div class="col-sm footer-content">
           <h3 class="footer-link-title text-center">Development Services</h3>
           <hr class="line" />
@@ -125,7 +127,6 @@
    
         </div>
       </div>
-
       <!-- Footer Icons -->
       <div class="row">
         <div class="col-12 text-center mb-4 pb-2 icon">

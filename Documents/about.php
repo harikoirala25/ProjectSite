@@ -88,7 +88,7 @@ About Page
           <hr>
           <h2 id="abth2">Meet Our Team</h2>
           <p id="abth2">Something about the teams goes here our slogan or some info for the user</p>
-          <div class="d-flex flex-row justify-content-center">
+          <div class="d-flex flex-row justify-content-sm-center align-content-sm-center">
             <div class="row">
               <div class="col-sm-6">
                 <div class="card text-center customcard"style="width: 18rem;">
@@ -151,38 +151,46 @@ About Page
         <!-- Footer Section -->
         <footer class="footer">
           <!-- Footer Links -->
-          <div class="row">
-            <div class="col-4 footer-content">
-              <h3 class="footer-link-title text-center">Development Services</h3>
-              <hr class="line" />
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Website Development</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Software Development</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Android Development</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Database Development</a
-              >
-            </div>
-            <div class="col-4 footer-content">
-              <h3 class="footer-link-title text-center">Other Services</h3>
-              <hr class="line1" />
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Networking</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Hardware</a
-              >
-            </div>
-            <div class="col-4 footer-content">
-              <p><a class="footer-services" href="">Privacy Policy</a></p>
-              <p><a class="footer-services" href="">Terms and Conditions</a></p>
-            </div>
-          </div>
+          <div class="row justify-content-center">
+        <div class="col-sm footer-content">
+          <h3 class="footer-link-title text-center">Development Services</h3>
+          <hr class="line" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Website Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Software Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Android Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Database Development</a
+          >
+        </div>
+        <div class="col-sm footer-content">
+          <h3 class="footer-link-title text-center">Other Services</h3>
+          <hr class="line1" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Networking</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Hardware</a
+          >
+        </div>
+
+        <div class="col-sm footer-content">
+             <h3 class="footer-link-title text-center">Terms and Conditions</h3>
+          <hr class="line1" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Terms and condtions</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Policy</a
+          >
+   
+        </div>
+      </div>
           <!-- Footer Icons -->
           <div class="row">
             <div class="col-12 text-center mb-4 pb-2 icon">

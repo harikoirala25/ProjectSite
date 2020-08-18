@@ -5,7 +5,7 @@ if (isset($_POST['submit'])){
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
 
-	if (empty($name) || empty($email) || empty($subject) || empty($message)){
+	if (empty($name) || empty($email) || empty($message)){
 		header("Location:contact.php?field=blank");
 		
 	}
@@ -18,7 +18,7 @@ if (isset($_POST['submit'])){
 		$headers = "From".$email;
 		$bodytxt = "You have an email from".$name.".\n\n".$message;
 		mail($mailto,$subject,$bodytxt,$headers);
-		header("Location:contact.php?field=send");
+		header("Location:thankcontact.php?field=send");
 	}
 	
 	

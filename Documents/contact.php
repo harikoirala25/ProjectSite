@@ -73,21 +73,21 @@ Contact Page
           </ul>
         </nav>
         <div class="container">
-          <div class="row">
-            <div class="col-8">
+          <div class="row justify-content-between">
+            <div class="col-md-8">
               <h1 id="title">Get in touch with us today</h1>
               <form action ="procontact.php" method="POST">
                 <div class="form-group">
-                  <label for="name">Name</label>
+                  <label for="name">Name (Required)</label>
                   <input type="text" name="name" class="form-control" placeholder="Jason Kenny" required="Name is required" >
                 </div>
                 <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="text" class="form-control" name="email" placeholder="youremail25@gmail.com" required="email is required" >
+                  <label for="email">Email (Valid email is required)</label>
+                  <input type="text" class="form-control" name="email" placeholder="jasonsmith@example.com" required="email is required" >
                 </div>
                 <div class="form-group">
                   <label for="email">Subject</label>
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="subject is required" >
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" >
                 </div>
                 <div class="form-group">
                   <label for="message">Your Message</label><br>
@@ -98,7 +98,7 @@ Contact Page
               
 
             </div>
-            <div class="col-4 text-right customcol">
+            <div class="col-md-4 text-center customcol">
               <h3>Contact our technician</h3>
               <hr>
               <address>
@@ -119,38 +119,46 @@ Contact Page
         <!-- Footer Section -->
         <footer class="footer">
           <!-- Footer Links -->
-          <div class="row">
-            <div class="col-4 footer-content">
-              <h3 class="footer-link-title text-center">Development Services</h3>
-              <hr class="line" />
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Website Development</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Software Development</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Android Development</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Database Development</a
-              >
-            </div>
-            <div class="col-4 footer-content">
-              <h3 class="footer-link-title text-center">Other Services</h3>
-              <hr class="line1" />
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Networking</a
-              >
-              <a class="footer-services d-block text-justify text-center" href=""
-              >Hardware</a
-              >
-            </div>
-            <div class="col-4 footer-content">
-              <p><a class="footer-services" href="">Privacy Policy</a></p>
-              <p><a class="footer-services" href="">Terms and Conditions</a></p>
-            </div>
-          </div>
+         <div class="row justify-content-center">
+        <div class="col-sm footer-content">
+          <h3 class="footer-link-title text-center">Development Services</h3>
+          <hr class="line" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Website Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Software Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Android Development</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Database Development</a
+          >
+        </div>
+        <div class="col-sm footer-content">
+          <h3 class="footer-link-title text-center">Other Services</h3>
+          <hr class="line1" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Networking</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Hardware</a
+          >
+        </div>
+
+        <div class="col-sm footer-content">
+             <h3 class="footer-link-title text-center">Terms and Conditions</h3>
+          <hr class="line1" />
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Terms and condtions</a
+          >
+          <a class="footer-services d-block text-justify text-center" href=""
+            >Policy</a
+          >
+   
+        </div>
+      </div>
           <!-- Footer Icons -->
           <div class="row">
             <div class="col-12 text-center mb-4 pb-2 icon">
