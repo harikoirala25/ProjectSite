@@ -2039,7 +2039,7 @@ Home Page
             </div>
             <div class="container slideshow">
                 <div class="container">
-                    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                    <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="7000">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -2161,4 +2161,9 @@ Home Page
             </footer>
             <script src="js/design.js"></script>
         </body>
+        <!-- ***************************************************************
+        Reuse of this code is strictly prohibited all the code belongs to 
+        IT Support @Copyright IT Support. All rights Reserved 
+        ********************************************************************
+        -->
     </html>
