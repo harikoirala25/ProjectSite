@@ -6,3 +6,5 @@ $(document).ready(function() {
     $(this).css("transition", "all 2s");
   });
 });
+
+  

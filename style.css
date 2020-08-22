@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 body {
-    background: rgb(4,38,70);
-    background: linear-gradient(90deg, rgba(4,38,70,1) 51%, rgba(17,77,210,1) 93%, rgba(20,83,210,1) 100%);
+    background-image: linear-gradient(to right, #000 10%,#330867 200%,#000 100%,#000 100%);
     font-family: "Lato", sans-serif;
     color: #fff;
 }
 
+.modal-background{
+   background:rgba(0, 0, 0, 0) linear-gradient(to right, rgb(218, 226, 248), rgb(214, 164, 164)) repeat scroll 0% 0%;
+}
 /* Navigation */
 .navbar-design {
   color: #fff;
@@ -89,6 +91,54 @@ padding:5px;
 }
 #customer-name{
 	font-family: arial;
+}
+
+#feedback { display: none;}
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      #feedback {display: inline;}
+    } 
+ 
+    .desktop { display:inline;}
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .desktop{display:none;}
+    } 
+
+
+#feedback {
+  height: 0px;
+  width:90px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  z-index: 1000;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  
+}
+#feedback button{
+  display: block;
+  background:#000;
+  height:50px;
+  padding-bottom:5px;
+  width:175px;
+  text-align:center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#feedback button:hover {
+  background:#00495d;
+}
+.modal-head {
+padding:15px;
 }
 
 

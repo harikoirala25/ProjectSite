@@ -14,7 +14,6 @@ Home Page
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         
-        
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <title>Home - IT support</title>
@@ -2159,11 +2158,15 @@ Home Page
                     </div>
                 </div>
             </footer>
-            <script src="js/design.js"></script>
-        </body>
-        <!-- ***************************************************************
+             <script src="js/design.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+             <!-- ***************************************************************
         Reuse of this code is strictly prohibited all the code belongs to 
         IT Support @Copyright IT Support. All rights Reserved 
         ********************************************************************
         -->
+        </body>
     </html>
