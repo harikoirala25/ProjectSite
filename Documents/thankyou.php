@@ -1,6 +1,7 @@
-<!-----------------------------------------------------------------------------------------
-                                    Thank You Page
-------------------------------------------------------------------------------------------->
+<?php
+      header("Location: https://lethbridgeitsupport.com/Documents/thankyou.php");
+      header( "Refresh: 10;" );
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,9 +79,6 @@
 				<p id="title"><strong>We value your feedback and we are looking forward to do an business with you again</strong></p>
 				<!--We can add serives we offer here as well just a little ad -->
 			</div>
-      <?php
-      header("refresh:10; url=../index.php"); 
-      ?>
 		</div>
 <!-- 	Footer Section -->
 	    <footer class="footer">

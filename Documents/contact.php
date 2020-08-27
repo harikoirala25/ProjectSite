@@ -27,6 +27,7 @@ Contact Page
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
       />
+           <script src="../js/design.js"></script>
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -76,10 +77,15 @@ Contact Page
           <div class="row justify-content-between">
             <div class="col-md-8">
               <h1 id="title">Get in touch with us today</h1>
-              <form action ="procontact.php" method="POST">
+              <form name = "getcontact"  onsubmit="return validateForm()" action ="procontact.php" method="POST">
                 <div class="form-group">
                   <label for="name">Name (Required)</label>
                   <input type="text" name="name" class="form-control" placeholder="Jason Kenny" required="Name is required" >
+                  <?php
+                  if ($name="") {
+                    echo "name is rewuired";
+                  }
+                  ?>
                 </div>
                 <div class="form-group">
                   <label for="email">Email (Valid email is required)</label>
@@ -199,6 +205,6 @@ Contact Page
           </div>
         </footer>
         
-        <script src="../js/design.js"></script>
+   
       </body>
     </html>

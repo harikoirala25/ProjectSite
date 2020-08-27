@@ -60,7 +60,6 @@ Home Page
         
         <!--end of slide -->
         
-        
         <div class="container">
             <!-- What we do -->
             <h2>What we do...</h2>
@@ -76,13 +75,12 @@ Home Page
                     <div class="service">
                         <!-- Web Development Service Start -->
                         <div class="service-section ">
-                            <h3>Web Development</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut explicabo quaerat laboriosam
-                                id
-                                quo
-                                praesentium ab ex. Illo, accusantium commodi.
-                            </p>
+                            <h3>Web Design</h3>
+                            <p> Are you looking to build a ecommerce, business or portfolio website that is affordable to you.
+                            Good web design can help the audience remain on your page and learn about your business. 
+                            <br>
+                              Click Read More to learn more about web design
+                          </p>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
                             Read More
                             </button>
@@ -92,35 +90,24 @@ Home Page
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="staticBackdropLabel">Web Development</h5>
+                                            <h5 class="modal-title" id="staticBackdropLabel">Web Design</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia
-                                                assumenda
-                                                incidunt optio odit totam, dolore nostrum quos? Iste impedit suscipit
-                                                asperiores
-                                                vel numquam praesentium exercitationem veritatis consectetur iusto
-                                                aliquam
-                                                vero,
-                                                quas aperiam officiis, atque eum quam nemo nulla ex ut reiciendis eos.
-                                                Modi
-                                                omnis doloremque ad. Tempore blanditiis culpa illum molestias. Cum
-                                                ducimus
-                                                iusto
-                                                magnam aspernatur consequuntur dolores itaque, cupiditate optio sit,
-                                                dolorum
-                                                excepturi hic sapiente soluta saepe. Neque dicta libero modi vel nulla
-                                                aliquam
-                                                veritatis et cum! Suscipit, molestiae officiis sit magni iste eligendi
-                                                praesentium inventore veniam, ratione nemo molestias? Maxime dignissimos
-                                                earum
-                                                ad fugiat quas consectetur aliquid.
+                                            <p>Your website often provides the first impression of who your company is and what you represent.
+                                                Web design is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex Web-based Internet applications, electronic businesses, and social network services.
+                                                We will design and build
+                                                all kinds of websites, below are the list of some of the most popular websites, we can design and build for your needs.<br> 
+                                                <ul>
+                                                    <li>eCommerce</li>
+                                                    <li>Business</li>
+                                                    <li>Portfolio</li>
+                                                    <li>Entertainment</li>
+                                                </ul>
                                             </p>
-                                            <p>If your interested working with us please contact us</p>
+                                            <p>If you want us to build a website or you want to know more information regarding web design,feel free to contact us below</p>
                                             <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                             
                                         </div>
@@ -133,9 +120,12 @@ Home Page
                         <div class="service-section">
                             <h3>Database Design</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ducimus quibusdam
-                                corporis
-                                beatae possimus, molestias nobis obcaecati qui a ipsa.
+                                Are you looking for a new database
+                                system for your business? Do you need 
+                                to organize information about your customer,
+                                clients and product inventory? 
+                                <br>
+                                Click Read More to learn more about Database design
                             </p>
                             <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#serviceDatabase">
@@ -154,28 +144,17 @@ Home Page
                                         </div>
                                         <div class="modal-body">
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia
-                                                assumenda
-                                                incidunt optio odit totam, dolore nostrum quos? Iste impedit suscipit
-                                                asperiores
-                                                vel numquam praesentium exercitationem veritatis consectetur iusto
-                                                aliquam
-                                                vero,
-                                                quas aperiam officiis, atque eum quam nemo nulla ex ut reiciendis eos.
-                                                Modi
-                                                omnis doloremque ad. Tempore blanditiis culpa illum molestias. Cum
-                                                ducimus
-                                                iusto
-                                                magnam aspernatur consequuntur dolores itaque, cupiditate optio sit,
-                                                dolorum
-                                                excepturi hic sapiente soluta saepe. Neque dicta libero modi vel nulla
-                                                aliquam
-                                                veritatis et cum! Suscipit, molestiae officiis sit magni iste eligendi
-                                                praesentium inventore veniam, ratione nemo molestias? Maxime dignissimos
-                                                earum
-                                                ad fugiat quas consectetur aliquid.
+                                                A database is an organized collection of information. Small businesses can use databases in a number of different ways. A database can help you organize information about your customers and clients. A database can contain information about your product inventory. Businesses use their databases to Keep track of basic transactions. Provide information that will help the company run the business more efficiently. Help managers and employees make better decisions.
+                                                Good database system is needed to organize information that can be easily accesssed, managed and update. 
+                                                We will design and implement the best database system for your business needs. Below are some of the most popular database system we will be using for your business.
+                                                 <ul>
+                                                    <li>Oracle Database</li>
+                                                    <li>MySQL</li>
+                                                    <li>Microsoft SQL server</li>
+                                                </ul>
+
                                             </p>
-                                            <p>If your interested working with us please contact us</p>
+                                            <p>If you want us to design and implement the best database system for your business or wanna know more information regarding database design, feel free to contact us below</p>
                                             <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                         </div>
                                     </div>
@@ -185,11 +164,12 @@ Home Page
                         <!-- End Service Database -->
                         <!-- Android Development Service Start -->
                         <div class="service-section">
-                            <h3>Android Development</h3>
+                            <h3>Mobile App Development</h3>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum magni ipsam nisi
-                                sequi,
-                                quisquam non dicta sapiente quod at?
+                                Do you need a mobile app for your business?
+                                An mobile app makes it easier to promote your products or services. Business with mobile app makes a better impressions than those without one. An mobile app will make your business stand out.<br>
+                                Click Read More to learn more about Mobile App Development
+
                             </p>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#serviceAndroid">
                             Read More
@@ -200,35 +180,26 @@ Home Page
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="serviceAndroidLabel">Android Development</h5>
+                                            <h5 class="modal-title" id="serviceAndroidLabel">Android App Development</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body">
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia
-                                                assumenda
-                                                incidunt optio odit totam, dolore nostrum quos? Iste impedit suscipit
-                                                asperiores
-                                                vel numquam praesentium exercitationem veritatis consectetur iusto
-                                                aliquam
-                                                vero,
-                                                quas aperiam officiis, atque eum quam nemo nulla ex ut reiciendis eos.
-                                                Modi
-                                                omnis doloremque ad. Tempore blanditiis culpa illum molestias. Cum
-                                                ducimus
-                                                iusto
-                                                magnam aspernatur consequuntur dolores itaque, cupiditate optio sit,
-                                                dolorum
-                                                excepturi hic sapiente soluta saepe. Neque dicta libero modi vel nulla
-                                                aliquam
-                                                veritatis et cum! Suscipit, molestiae officiis sit magni iste eligendi
-                                                praesentium inventore veniam, ratione nemo molestias? Maxime dignissimos
-                                                earum
-                                                ad fugiat quas consectetur aliquid.
+                                                We will only be developing android app as of now, if you need iOS app we reccomennd choosing a different company. Mobile apps allow you to resolve customer questions, makes them aware of the discounts or offers you are providing, gives a platform to directly interact with the company and suggest services the way they want. Below are some of the benefits of having a mobile app
+                                                 <dl>
+                                                  <dt> <strong>Increase Customer Engagement</strong></dt>
+                                                  <dd>&nbsp Mobile apps are a great strategy to keep your customers engaged with your brand, offering unique features that are more engaging than Web.</dd>
+                                                  <dt> <strong>Increase Revenue</strong></dt>
+                                                  <dd>&nbsp Mobile apps give your brand the opportunity to increase and earn additional revenue. By making the purchasing process more convenient, intuitive and simple, apps can significantly improve the customer experience which, in turn, positively impacts sales</dd>
+                                                  <dt> <strong>Encourage Brand Loyalty</strong></dt>
+                                                  <dd>&nbsp It is important to make a true and sincere connection with your customers in order to foster brand loyalty. It is the user experience of an app, and how valuable this is to customers, that has tied brand loyalty to mobile apps</dd>
+                                                  
+                                                </dl>
+
                                             </p>
-                                            <p>If your interested working with us please contact us</p>
+                                            <p>If are looking forward to develop a mobile app for your business, feel free to contact us below</p>
                                             <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                         </div>
                                     </div>
@@ -238,11 +209,11 @@ Home Page
                         <!-- End Service Android Development-->
                         <!-- Networking Service Start -->
                         <div class="service-section">
-                            <h3>Networking</h3>
+                            <h3>Network design and implementation</h3>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laborum explicabo nisi
-                                ipsum
-                                cumque sequi ipsam perspiciatis repellendus, ea nam.
+                                Do you need to build a computer network for your business? Your computer network infrastructure is the backbone of your business. All your devices, applications, software, and most of your work is supported by or built upon your computer network. 
+                                <br>
+                                 Click Read More to learn more about Network design and implementation
                             </p>
                             <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#serviceNetworking">
@@ -261,28 +232,15 @@ Home Page
                                         </div>
                                         <div class="modal-body">
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia
-                                                assumenda
-                                                incidunt optio odit totam, dolore nostrum quos? Iste impedit suscipit
-                                                asperiores
-                                                vel numquam praesentium exercitationem veritatis consectetur iusto
-                                                aliquam
-                                                vero,
-                                                quas aperiam officiis, atque eum quam nemo nulla ex ut reiciendis eos.
-                                                Modi
-                                                omnis doloremque ad. Tempore blanditiis culpa illum molestias. Cum
-                                                ducimus
-                                                iusto
-                                                magnam aspernatur consequuntur dolores itaque, cupiditate optio sit,
-                                                dolorum
-                                                excepturi hic sapiente soluta saepe. Neque dicta libero modi vel nulla
-                                                aliquam
-                                                veritatis et cum! Suscipit, molestiae officiis sit magni iste eligendi
-                                                praesentium inventore veniam, ratione nemo molestias? Maxime dignissimos
-                                                earum
-                                                ad fugiat quas consectetur aliquid.
+                                                When you run a small business, budgeting is typically tight, so creating an effective, available network may seem intimidating. However, you don’t need the same (often expensive) equipment and advanced setup that larger businesses require. we got plenty of ways to design a useful, reliable, efficient small business network infrastructure without breaking the bank. Why it's important to have a good computer network for your business?
+                                                <dt> <strong>Help your business grow</strong></dt>
+                                                  <dd>&nbsp A good computer networking solution can be very beneficial for your business. It lets you store important business data in a centralized location. This allows the various computers in the network to retrieve important data from the main location.</dd>
+                                                  <dt> <strong>Cost-effective resource sharing</strong></dt>
+                                                  <dd>&nbsp A good networking setup will reduce the amount of money you spend on hardware. How? By creating a computer network and sharing the hardware you already have. </dd>
+                                                  <dt> <strong>Securing valuable information</strong></dt>
+                                                  <dd>&nbsp Company data can never be fully secure without protected access to network resources and files. We will design the security features on your network following the highest security standards. </dd>
                                             </p>
-                                            <p>If your interested working with us please contact us</p>
+                                            <p>Let us help you build a perfect network for your business, feel free to contact us below</p>
                                             <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                         </div>
                                     </div>
@@ -294,8 +252,9 @@ Home Page
                         <div class="service-section">
                             <h3>Software Development</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolores temporibus a
-                                consequuntur nostrum distinctio fugit qui, ipsum at laudantium.
+                                Do you need a new customized software for your business? Don't like the off-the-shelf software, no problem. We will build a customzied software for your business needs. 
+                                <br>
+                                Click Read More to learn more about software development
                             </p>
                             <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#serviceSoftwareDev">
@@ -315,28 +274,15 @@ Home Page
                                         </div>
                                         <div class="modal-body">
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia
-                                                assumenda
-                                                incidunt optio odit totam, dolore nostrum quos? Iste impedit suscipit
-                                                asperiores
-                                                vel numquam praesentium exercitationem veritatis consectetur iusto
-                                                aliquam
-                                                vero,
-                                                quas aperiam officiis, atque eum quam nemo nulla ex ut reiciendis eos.
-                                                Modi
-                                                omnis doloremque ad. Tempore blanditiis culpa illum molestias. Cum
-                                                ducimus
-                                                iusto
-                                                magnam aspernatur consequuntur dolores itaque, cupiditate optio sit,
-                                                dolorum
-                                                excepturi hic sapiente soluta saepe. Neque dicta libero modi vel nulla
-                                                aliquam
-                                                veritatis et cum! Suscipit, molestiae officiis sit magni iste eligendi
-                                                praesentium inventore veniam, ratione nemo molestias? Maxime dignissimos
-                                                earum
-                                                ad fugiat quas consectetur aliquid.
+                                                Customized solutions can be more efficient and more adjustable to your needs, which will affect your business positively in the long run. Many companies may be put off at first by the cost of a custom software application, but the initial investment can be recovered by addressing the unique problems that off-the-shelf options are not able to tackle. Deciding whether you need custom software developed for you or not can be rather difficult. Below we have three ways that your business can benefit from investing in a customized solution.
+                                                <dt> <strong>Targeted solution</strong></dt>
+                                                  <dd>&nbsp Probably the most important reason to invest in custom software development is that you develop a product that addresses your exact needs. It is not unusual for businesses to choose an off-the-shelf software option just to realize that it is unsuitable for them. </dd>
+                                                  <dt> <strong>Integration with other software</strong></dt>
+                                                  <dd>&nbsp The development of custom software creates an environment in which it is easier to integrate your product with other software that is already in use. When it comes to off-the-shelf solutions, it very unlikely for them to interact without errors, which doesn’t improve the employee’s productivity and optimize business operations. </dd>
+                                                  <dt> <strong>Hardware costs</strong></dt>
+                                                  <dd>&nbsp Licencing off-the-shelf software often comes with the necessity of purchasing the additional hardware for it to run efficiently, which can turn into a pretty big bill at the end of the day. With tailor-made software, the current hardware capabilities are taken into consideration, which helps to save money and avoid unnecessary purchases of additional hardware. </dd>
                                             </p>
-                                            <p>If your interested working with us please contact us</p>
+                                            <p>Let us help you develop a custom solution for your business needs, feel free to contact us below</p>
                                             <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                         </div>
                                     </div>
@@ -346,11 +292,11 @@ Home Page
                         <!-- End Service Software -->
                         <!-- Hardware Service Start -->
                         <div class="service-section">
-                            <h3>Hardware</h3>
+                            <h3>Computer Repair</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quas eum ipsa quo sed
-                                odio
-                                magni totam assumenda corporis iste.
+                                Do you have a computer issue?
+                                Many times our computers have issues and we are far to invested in them to take notice. Bottom line, when a problem first starts, an expert needs to have a look as soon as possible.<br>
+                                Click Read more to learn more about computer repair
                             </p>
                             <button type="button" class="btn btn-primary" data-toggle="modal"
                             data-target="#serviceHardware">
@@ -362,35 +308,16 @@ Home Page
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="serviceHardwareLabel">Hardware</h5>
+                                            <h5 class="modal-title" id="serviceHardwareLabel">Computer Repair</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body">
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia
-                                                assumenda
-                                                incidunt optio odit totam, dolore nostrum quos? Iste impedit suscipit
-                                                asperiores
-                                                vel numquam praesentium exercitationem veritatis consectetur iusto
-                                                aliquam
-                                                vero,
-                                                quas aperiam officiis, atque eum quam nemo nulla ex ut reiciendis eos.
-                                                Modi
-                                                omnis doloremque ad. Tempore blanditiis culpa illum molestias. Cum
-                                                ducimus
-                                                iusto
-                                                magnam aspernatur consequuntur dolores itaque, cupiditate optio sit,
-                                                dolorum
-                                                excepturi hic sapiente soluta saepe. Neque dicta libero modi vel nulla
-                                                aliquam
-                                                veritatis et cum! Suscipit, molestiae officiis sit magni iste eligendi
-                                                praesentium inventore veniam, ratione nemo molestias? Maxime dignissimos
-                                                earum
-                                                ad fugiat quas consectetur aliquid.
+                                                No computer lasts forever, but to get the most out of your investment, you probably want to stretch its life out for as long as you can. Upgrades and repairs can carry your machine along for a decent amount of time, but at a certain point, you might be better off investing in a new computer instead of dribbling away your money on continuing maintenance. Contact us and we will give you the best advice as to you should repair your computer or better off buying a new one.
                                             </p>
-                                            <p>If your interested working with us please contact us</p>
+                                            <p>Let us help you repair your computer, feel free to contact us below</p>
                                             <button onclick="window.location.href='Documents/contact.php';" class="btn-primary custom-btn"> Contact Us</button>
                                         </div>
                                     </div>

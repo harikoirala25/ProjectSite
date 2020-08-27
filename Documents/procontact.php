@@ -14,7 +14,7 @@ if (isset($_POST['submit'])){
 	}
 	else{
 		//use a website hosting email here
-		$mailto = "harikoirala25@gmail.com";
+		$mailto = "contact@lethbridgeitsupport.com";
 		$headers = "From".$email;
 		$bodytxt = "You have an email from".$name.".\n\n".$message;
 		mail($mailto,$subject,$bodytxt,$headers);

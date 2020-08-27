@@ -13,16 +13,16 @@ if(isset($_POST['submit'])){
 	$money = $_POST['money'];
 	$textarea = $_POST['textarea'];
 	//inserting data in to the databse
-	//Webserver change feedback to Feedback
-	if (isset($services) ||isset($site) ||isset($overall) ||isset($expectation) ||isset($easy) ||isset($needs) ||isset($describe) ||isset($money) ||isset($textarea))
+    
+    if (isset($services) ||isset($site) ||isset($overall) ||isset($expectation) ||isset($easy) ||isset($needs) ||isset($describe) ||isset($money) ||isset($textarea))
 	{
-		$sql = "INSERT INTO feedback (satisfied,sitenav,overall,expectations,information,needs,description,moneyvalue,comments)
+		$sql = "INSERT INTO Feedback (satisfied,sitenav,overall,expectations,information,needs,description,moneyvalue,comments)
 		VALUES ('$services', '$site', '$overall', '$expectation', '$easy', '$needs', '$describe', '$money', '$textarea')";
 	}
 	//if connection is successful redirect to thankyou pge
 	if ($conn->query($sql)===TRUE)
 	{
-		header("Location:thankyou.php?success");
+		header("Location:thankyou.php?Success");
 	}
 	//if there is a problem redirect them to the index pge
 	else
@@ -30,4 +30,3 @@ if(isset($_POST['submit'])){
 		header("Location:index.php?ConnectionError");
 	}
 }
-?>
